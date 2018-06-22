@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="mobile.js"></script>
+    <script src="mobileOperation.js"></script>
+     <script src="axios.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+ body{
+     background-color: azure;
+     color: brown;
+     text-align: center;
+     margin:  0 auto;
+     padding: 0px;
+ }
+</style>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <hr>
+     <button id="dofetch" class="btn btn-info"> LOAD BY FETCH</button>&nbsp; &nbsp;
+  
+    <hr>
+    <div id="datajson">
+        <h2>Total Number of Laptops : <span id="num"></span></h2>
+        <ul id="songList">
+<hr>
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">ID:</th>
+        <th scope="col">NAME:</th>
+        <th scope="col">PRICE:</th>
+        <th scope="col">IMAGE:</th>
+        <th scope="col">OPERATIONS</th>
+      </tr>
+    </thead>
+    <tbody id="tbodylist">
+      </tbody>
+      </table>
+    </div>
+</body>
+</html>
